@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6 offset-3">
+           <div class="card">
+               <div class="card-body">
+                   <form action="#" method="get">
+                        <div class="form-group">
+                            <label for="login">Loginni kiriting</label>
+                            <input type="text" class="form-control" id="login" placeholder="Loginni kiriting">
+                        </div>
+                       <div class="form-group">
+                           <label for="password">Parolni kiriting</label>
+                           <input type="password" class="form-control" id="password" placeholder="Parolni kiriting">
+                       </div>
+                       <div class="form-group">
+                           <label for="dist">Qo'shimcha ma'lumot</label>
+                           <textarea name="dist" class="form-control" id="dist" placeholder="Qo'shimcha ma'lumot"></textarea>
+                       </div>
+                       <div class="form-group">
+                           <label for="region">Regionni tanlang:</label>
+                           <select name="region" class="form-control" id="region">
+                               <option value="1">Toshkent</option>
+                               <option value="2">Samarqand</option>
+                               <option value="3">Buxoro</option>
+                               <option value="4">Xorazm</option>
+                           </select>
+                       </div>
+                       <button type="button" class="btn btn-success float-right">Tizimga kirish</button>
+                   </form>
+               </div>
+           </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-6 offset-3">
+            <form action="#" method="post">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                            All Categories
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Home</a>
+                            <a href="#" class="dropdown-item">Shop</a>
+                            <a href="#" class="dropdown-item">Helath and Safety</a>
+                            <a href="#" class="dropdown-item">Baby Clothes</a>
+                            <a href="#" class="dropdown-item">Baby Toys</a>
+                            <a href="#" class="dropdown-item">Pages</a>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-danger">&telrec;</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
